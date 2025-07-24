@@ -21,5 +21,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 # install Docker-Compose
 sudo apt install docker.io docker-compose -y
 
+# install net-tools
+sudo apt install net-tools
+
 sudo reboot now
 

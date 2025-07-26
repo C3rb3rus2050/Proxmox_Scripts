@@ -27,5 +27,10 @@ sudo apt install net-tools -y
 # install parted
 sudo apt install parted -y
 
+# install ssh
+sudo apt install openssh-server -y
+systemctl enable ssh
+systemctl start ssh
+
 sudo reboot now
 

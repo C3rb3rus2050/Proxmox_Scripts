@@ -2,6 +2,8 @@
 
 Sudo apt-get update && Sudo apt-get upgrade -y && Sudo apt autoremove -y
 
+sudo apt update --fix-missing
+
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl -y

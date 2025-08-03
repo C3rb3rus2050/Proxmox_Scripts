@@ -23,6 +23,10 @@ apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docke
 # install Docker-Compose
 apt install docker.io docker-compose -y
 
+apt install pip
+
+apt install python3-setuptools
+
 # install net-tools
 apt install net-tools -y
 

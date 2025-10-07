@@ -38,5 +38,7 @@ apt install openssh-server -y
 systemctl enable ssh
 systemctl start ssh
 
+sudo rm -r Proxmox_Scripts/
+
 reboot now
 
